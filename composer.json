@@ -1,7 +1,7 @@
 {
-    "name": "fzaninotto/faker",
+    "name": "mattsmithdev/faker-small-english",
     "type": "library",
-    "description": "Faker is a PHP library that generates fake data for you.",
+    "description": "Smaller, English-only (sorry) version of François Zaninotto's Faker is a PHP library that generates fake data for you.",
     "keywords": [
         "faker",
         "fixtures",
@@ -14,26 +14,20 @@
         }
     ],
     "require": {
-        "php": "^5.3.3 || ^7.0 || ^8.0"
+        "php": "^5.3.3 || ^7.0 || ^8.0",
+        "psr/container": "^2.0"
     },
     "require-dev": {
-        "ext-intl": "*",
-        "phpunit/phpunit": "^4.8.35 || ^5.7",
-        "squizlabs/php_codesniffer": "^2.9.2"
+        "ext-intl": "*"
     },
     "autoload": {
         "psr-4": {
-            "Faker\\": "src/Faker/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Faker\\Test\\": "test/Faker/"
+            "Mattsmithdev\\FakerSmallEnglish\\": "src/"
         }
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.9-dev"
+            "dev-master": "0.1"
         }
     },
     "config": {
