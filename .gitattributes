@@ -3,3 +3,6 @@
 /.gitignore         export-ignore
 /CONTRIBUTING.md    export-ignore
 /Makefile           export-ignore
+/.idea/
+/.vscode/
+.DS_STORE
